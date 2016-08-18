@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bundle-Description: dotCMS Osgi FileMap Override
+Bundle-SymbolicName: com.dotcms.override.legacy.files
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1471530621000
+Bundle-DocURL: http://www.dotcms.com
+Bundle-Vendor: dotcms
+Import-Package: com.dotcms.repackage.org.apache.commons.beanutils;vers
+ ion=0,com.dotcms.repackage.org.apache.commons.lang.builder;version=0,
+ com.dotcms.repackage.org.osgi.framework;version=0,com.dotmarketing.be
+ ans;version=0,com.dotmarketing.business;version=0,com.dotmarketing.ca
+ che;version=0,com.dotmarketing.osgi;version=0,com.dotmarketing.portle
+ ts.contentlet.business;version=0,com.dotmarketing.portlets.contentlet
+ .model;version=0,com.dotmarketing.portlets.fileassets.business;versio
+ n=0,com.dotmarketing.portlets.files.business;version=0,com.dotmarketi
+ ng.portlets.files.model;version=0,com.dotmarketing.portlets.languages
+ manager.business;version=0,com.dotmarketing.portlets.languagesmanager
+ .model;version=0,com.dotmarketing.util;version=0,com.liferay.portal.m
+ odel;version=0,org.apache.velocity.tools.view.tools;version=0
+DynamicImport-Package: *
+Tool: Bnd-2.1.0.20130426-122213
+Override-Classes: com.dotmarketing.viewtools.content.FileMap,com.dotma
+ rketing.viewtools.FileTool
+Export-Package: com.dotmarketing.osgi.override;version="0.1";uses:="co
+ m.dotcms.repackage.org.osgi.framework,com.dotmarketing.osgi",com.dotm
+ arketing.viewtools;version="0.1";uses:="com.dotmarketing.portlets.fil
+ eassets.business,com.dotmarketing.portlets.files.model,org.apache.vel
+ ocity.tools.view.tools",com.dotmarketing.viewtools.content;version="0
+ .1";uses:="com.dotmarketing.portlets.fileassets.business,com.dotmarke
+ ting.portlets.files.model"
+Bundle-Name: Osgi Override class
+Bundle-Version: 0.1
+Bundle-Activator: com.dotmarketing.osgi.override.Activator
+Created-By: 1.8.0_60 (Oracle Corporation)
+
