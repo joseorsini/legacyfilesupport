@@ -1,6 +1,6 @@
 #add support for Legacy Files in 3.5.x
 
-As of 3.x, calls to REST API for Legacy Files using Identifiers on the URI don't work. By editing the files on this plugin and overriding the default ones via OSGi plugin, support for these legacy files is re-enabled.:wq
+As of 3.x, calls to REST API for Legacy Files using Identifiers on the URI don't work. By editing the files on this plugin and overriding the default ones via OSGi plugin, support for these legacy files is re-enabled.
 
 Related to support ticket: https://my.dotcms.com/tickets/detail.dot?id=ec3c46c6-1099-4695-b1fb-455831bb5aac
 
