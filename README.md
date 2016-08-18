@@ -11,4 +11,5 @@ https://github.com/joseorsini/legacyfilesupport/blob/master/src/main/java/com/do
 
 Still pending:
 
-support for backend js/jsp files (still using identifiers, show as 404/broken thumbnails for Legacy Files)
+- support for backend js/jsp files (still using identifiers, show as 404/broken thumbnails for Legacy Files)
+- support for identifier-based uris for legacy files (this might solve the issue for backend pages)
