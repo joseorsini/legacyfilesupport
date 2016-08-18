@@ -1,4 +1,4 @@
-add support for Legacy Files in 3.5.x
+#add support for Legacy Files in 3.5.x
 
 As of 3.x, calls to REST API for Legacy Files using Identifiers on the URI don't work. By editing the files on this plugin and overriding the default ones via OSGi plugin enables support for these legacy files
 
@@ -11,4 +11,4 @@ https://github.com/joseorsini/legacyfilesupport/blob/master/src/main/java/com/do
 
 Still pending:
 
-support for backend js/jsp files (still using identifiers, show as 404)
+support for backend js/jsp files (still using identifiers, show as 404/broken thumbnails for Legacy Files)
